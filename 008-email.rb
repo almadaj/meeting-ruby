@@ -1,6 +1,10 @@
-fName = "Juliano"
-sName = "Almada"
-company = "OBC"
+
+puts "Informe nome: "
+fName = gets.chomp
+puts "Informe sobrenome: "
+sName = gets.chomp
+puts "Informe nome: "
+company = gets.chomp
 
 # email = fName.downcase + "." + sName.downcase + "@" + company.downcase + ".com"
 email = ""
