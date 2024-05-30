@@ -7,7 +7,6 @@ class Transaction
         @from = from
         @amount = amount
         @completed = completed
-
     end
     
     def to_s
@@ -24,7 +23,6 @@ end
 
 trans1 = Transaction.new("Fulano", "Sicrano", 1000, false)
 p trans1.extract
-puts "..."
 p trans1.to
 p trans1.from
 p trans1.amount
